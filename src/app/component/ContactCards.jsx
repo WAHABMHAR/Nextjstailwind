@@ -17,7 +17,7 @@ const ContactCards = () => {
               href={`mailto:wahabmhar@gmail.com`}
               className="font-bold text-red-700"
             >
-              Send Email <span>&gt;</span>
+              Send Email <span>-&gt;</span>
             </Link>
           </div>
         </div>
