@@ -24,8 +24,7 @@ const Nav = () => {
       <nav>
         <div className="flex font-bold gap-6">
           {navmenu.map((item, index) => {
-             (
-              <ul key={index}  className="hover:text-red-600">
+             return(<ul key={index}  className="hover:text-red-600">
                 <li >
                   <Link href={item.path}>{item.name} </Link>
                 </li>
